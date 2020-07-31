@@ -6,12 +6,21 @@ $dark:			#535052;
 
 @import "bootstrap/scss/bootstrap";
 
+@font-face {
+  font-family: FHWASeriesB;
+  src: url(fonts/HWYGOTH.ttf);
+}
 
 body {
 	color: $light;
-	background:  black; 
+	background:  black;
+	font-family: impact;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	color: $primary;
+}
+
+p {
+	font-family: FHWASeriesB;
 }
