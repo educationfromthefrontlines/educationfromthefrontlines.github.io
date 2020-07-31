@@ -1,3 +1,17 @@
 //Custom SCSS
 
+$primary:		#fbee1f;
+$secondary:		#c20008;
+$dark:			#535052;
+
 @import "bootstrap/scss/bootstrap";
+
+
+body {
+	color: $light;
+	background:  black; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: $primary;
+}
